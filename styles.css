@@ -1,0 +1,156 @@
+/* General */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Encabezado */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ff4081;
+  padding: 15px 20px;
+}
+
+.logo img {
+  height: 110px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+/* Navegacion */
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffd1dc;
+  font-size: 22px;
+}
+
+.menu-principal {
+  flex: 1;
+}
+
+.menu-secundario {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-secundario li:last-child a {
+  background-color: white;
+  color: #ff4081;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu-secundario li:last-child a:hover {
+  background-color: #ffd1dc;
+  color: #ff4081;
+}
+
+/* Sección Hero */
+.hero {
+  background: url("images/hero-bg.jpg") no-repeat center center/cover;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-texto {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 20px;
+  margin-top: 10px;
+  background-color: #ff4081;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: #d81b60;
+}
+
+/* Sección Beneficios */
+.beneficios {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f8f9fa;
+}
+
+.beneficio {
+  display: inline-block;
+  width: 30%;
+  padding: 20px;
+  text-align: center;
+}
+
+.beneficio img {
+  width: 250px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+  border-radius: 20%;
+}
+
+/* Sección Testimonios */
+.testimonios {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: white;
+}
+
+.testimonios blockquote {
+  font-style: italic;
+  margin: 20px 0;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #333;
+  color: white;
+  margin-top: 20px;
+}
+
+.redes img {
+  width: 30px;
+  margin: 5px;
+}
